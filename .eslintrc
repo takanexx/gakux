@@ -1,3 +1,9 @@
 {
-  "extends": ["next", "next/core-web-vitals", "prettier", "next/babel"]
+  "extends": ["next/core-web-vitals", "prettier"],
+  "rules": {
+    // Disable the rule that prevents unescaped characters in JSX
+    "react/no-unescaped-entities": "off",
+    // Disable the rule that prevents using <img> elements in Next.js
+    "@next/next/no-img-element": "off",
+  },
 }
