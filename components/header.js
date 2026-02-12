@@ -1,11 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faInstagram,
-  faTwitter,
-  faYoutube,
-} from "@fortawesome/free-brands-svg-icons";
+import { faInstagram, faXTwitter } from "@fortawesome/free-brands-svg-icons";
 import Logo from "../public/logo.png";
 
 const Header = () => {
@@ -35,7 +31,7 @@ const Header = () => {
               target="_blank"
               rel="noreferrer noopener"
             >
-              <FontAwesomeIcon icon={faTwitter} size="1x" />
+              <FontAwesomeIcon icon={faXTwitter} size="1x" />
             </Link>
           </li>
         </ul>
