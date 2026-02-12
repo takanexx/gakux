@@ -1,11 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faInstagram,
-  faTwitter,
-  faYoutube,
-} from "@fortawesome/free-brands-svg-icons";
+import { faInstagram, faXTwitter } from "@fortawesome/free-brands-svg-icons";
 
 import style from "../styles/Home.module.css";
 import Logo from "../public/logo.png";
@@ -69,7 +65,7 @@ export default function Home() {
                     target="_blank"
                     rel="noreferrer noopener"
                   >
-                    <FontAwesomeIcon icon={faTwitter} size="2x" />
+                    <FontAwesomeIcon icon={faXTwitter} size="2x" />
                   </Link>
                 </li>
               </ul>
